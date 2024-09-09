@@ -1,18 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 @import url("https://unpkg.com/nes.css@2.3.0/css/nes.min.css");
-@import url("zoom.css");
 body {
   max-width: 80%;
   max-height: 90%;
-  /* margin-left: 10%;
-  margin-right: 10%; */
   margin: auto;
 }
 .output{
   min-height: 300px;
   text-align: center;
 }
-
 .output img{
   width: fit-content;
   height:fit-content;
@@ -20,6 +16,6 @@ body {
   max-height: 80%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("bg1.jpg");
+  background-color: gray;
   overflow: auto;
 }
